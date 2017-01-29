@@ -42,6 +42,7 @@ while (True):
                 answer2=raw_input(fight+question2)
                 if (answer2==room2answer):
                     print("You have beat the man in a fight")
+                    room=3
                 if (answer2!=room2answer):
                     health-=20
                     print("You try to fight the man but he is too strong")
